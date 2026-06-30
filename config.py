@@ -22,7 +22,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001755253960"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1458235021"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8084")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://nakflixtvbot:alpha3720@nakflixlink7bot.68n4z.mongodb.net/?retryWrites=true&w=majority")
